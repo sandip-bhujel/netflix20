@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: black;
+}
+/* .navbar-svg {
+  height: 100px;
+  width: 150px;
+} */
+
+.main {
+  background: url("./images/bg.jpg");
+  height: 70vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.main .box {
+  height: 70vh;
+  top: 0px;
+  background-color: black;
+  position: absolute;
+  opacity: 0.7;
+  width: 100%;
+}
+
+nav {
+  /* background-color: rgb(34, 255, 0); */
+  display: flex;
+  justify-content: space-between;
+  max-width: 60vw;
+  height: 62px;
+  align-items: center;
+  margin: auto;
+}
+
+nav img {
+  width: 135px;
+  z-index: 1;
+  position: relative;
+  height: 30px;
+}
+
+nav button {
+  position: relative;
+  z-index: 1;
+}
+
+.btn {
+  padding: 3px 8px;
+  font-weight: bold;
+  /* background-color: rgb(235, 231, 231); */
+}
+
+.btn-red {
+  background-color: red;
+}
+/* .container {
+  font-size: 18px;
+  font-family: "poppins";
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  color: white;
+  z-index: 10;
+  position: relative;
+}
+.bold {
+  font-size: 30px;
+}
+.both-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+.btn-btn-red {
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 20px;
+  color: aliceblue;
+}
+input {
+  padding: 7px 50px 10px;
+  background-color: rgba(70, 66, 66, 0.3);
+  border-radius: 3px;
+  border: 1px solid rgba(70, 66, 66, 0.3);
+} */
+.hero {
+  height: calc(100% - 60px);
+  color: white;
+  z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 30px;
+}
+:root {
+  --whitecolor: white;
+  --red-color: red;
+  --black-color: rgb(0, 0, 0);
+}
+.hero-1 {
+  font-family: "poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 700px;
+}
+.hero-2 {
+  font-size: 24px;
+  font-weight: 400px;
+}
+.hero-3 {
+  font-size: 20px;
+  font-weight: 400px;
+}
+.both-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  /* margin-top: 5px; */
+}
+.btn-btn-red {
+  background-color: red;
+  padding: 5px 10px;
+  border-radius: 2px;
+  font-size: 20px;
+  color: aliceblue;
+}
+input {
+  font-size: 15px;
+  padding: 7px 40px 10px;
+  background-color: rgba(70, 66, 66, 0.3);
+  border-radius: 2px;
+  border: 1px solid rgba(70, 66, 66, 0.3);
+}
+.horizontal {
+  height: 7px;
+  background: #626161;
+}
+/* section first */
+.first {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 63vw;
+  margin: auto;
+}
+.sectionImg {
+  position: relative;
+}
+.sectionImg img {
+  position: relative;
+  width: 550px;
+  z-index: 1;
+}
+.sectionImg video {
+  position: absolute;
+  top: 64px;
+  right: 10px;
+}
+/* .enjoy {
+  color: antiquewhite;
+  font-size: 48px;
+  font-weight: 700px;
+  position: absolute;
+  bottom: 30px;
+  z-index: 2;
+  margin-right: 600px;
+} */
+.sec-spn1 {
+  font-size: 48px;
+  font-weight: 900;
+  position: absolute;
+  bottom: 30px;
+  padding: 34px 0;
+  z-index: 2;
+  margin-right: 600px;
+}
+
+.sec-spn2 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+.section-tvImg {
+  position: relative;
+}
+.section-tvImg {
+  position: relative;
+  width: 550px;
+  z-index: 2;
+}
+.section-tvImg video {
+  position: absolute;
+  top: 30px;
+  /* left: 10px; */
+  right: 10px;
+}
+.fourth {
+  position: relative;
+  /* bottom: 500px; */
+}
+.fourth-tv {
+  color: white;
+  flex-direction: column;
+  position: absolute;
+  right: 80px;
+  bottom: 200px;
+  z-index: 2;
+}
+.spn3 {
+  font-size: 40px;
+  font-weight: 800;
+  display: flex;
+}
+.spn4 {
+  font-size: 30px;
+  position: absolute;
+  left: 100px;
+}
